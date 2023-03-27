@@ -59,13 +59,13 @@ void setup() {
 
 //// Start Black water tank specific code ////
 
-auto black5_input_state = new DigitalInputState(2, INPUT_PULLUP, 1000); //Digital 9
+auto* black5_input_state = new DigitalInputState(2, INPUT_PULLUP, 1000); //Digital 9
 black5_input_state->connect_to(
       new LambdaConsumer<bool>([](bool state5) {
         black5_state = state5;
       }));
 
-auto black4_input_state = new DigitalInputState(13, INPUT_PULLUP, 1000); //Digital 7
+auto* black4_input_state = new DigitalInputState(13, INPUT_PULLUP, 1000); //Digital 7
 black4_input_state->connect_to(
       new LambdaConsumer<bool>([](bool state4) {
         black4_state = state4;
