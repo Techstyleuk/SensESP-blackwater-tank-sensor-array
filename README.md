@@ -9,4 +9,4 @@ the sensors I bought are:
 
 ![Cover](https://github.com/Techstyleuk/SensESP-blackwater-tank-sensor-array/blob/main/BW-cover.jpg)
 
-Video will be released on 5th April 2023
+Video is available on YouTube: https://youtu.be/_G8A6kWUJCs
