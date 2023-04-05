@@ -63,12 +63,14 @@ auto* black5_input_state = new DigitalInputState(2, INPUT_PULLUP, 1000); //Digit
 black5_input_state->connect_to(
       new LambdaConsumer<bool>([](bool state5) {
         black5_state = state5;
+        blackwater_calc();
       }));
 
 auto* black4_input_state = new DigitalInputState(13, INPUT_PULLUP, 1000); //Digital 7
 black4_input_state->connect_to(
       new LambdaConsumer<bool>([](bool state4) {
         black4_state = state4;
+        blackwater_calc();
       }));
 
 auto* black3_input_state = new DigitalInputState(14, INPUT_PULLUP, 1000); //Digital 6
@@ -82,12 +84,14 @@ auto* black2_input_state = new DigitalInputState(0, INPUT_PULLUP, 1000); //Digit
 black2_input_state->connect_to(
       new LambdaConsumer<bool>([](float state2) {
         black2_state = state2;
+        blackwater_calc();
       })); 
 
 auto* black1_input_state = new DigitalInputState(26, INPUT_PULLUP, 1000); //Digital 3
 black1_input_state->connect_to(
       new LambdaConsumer<bool>([](float state1) {
         black1_state = state1;
+        blackwater_calc();
       }));             
 
   auto* blackwater_level = 
