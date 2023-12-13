@@ -10,3 +10,11 @@ the sensors I bought are:
 ![Cover](https://github.com/Techstyleuk/SensESP-blackwater-tank-sensor-array/blob/main/BW-cover.jpg)
 
 Video is available on YouTube: https://youtu.be/_G8A6kWUJCs
+
+The files should replace the files of the same name in the template. locations are as follows:
+
+src/main.cpp
+
+platformio.ini
+
+Comprehensive documentation for SensESP, including how to get started with your own project, is available at the SensESP documentation site.
