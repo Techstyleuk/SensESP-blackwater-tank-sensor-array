@@ -17,4 +17,4 @@ src/main.cpp
 
 platformio.ini
 
-Comprehensive documentation for SensESP, including how to get started with your own project, is available at the SensESP documentation site.
+Comprehensive documentation for SensESP, including how to get started with your own project, is available at the [SensESP documentation site](https://signalk.org/SensESP/).
